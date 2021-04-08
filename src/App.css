@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.controlForm {
+  display: flex;
+  padding: 1em;
+  justify-content: space-around;
+  font-size: larger;
+  align-items: center;
+  width: 100%;
+  gap: 0.5em;
+  flex-wrap: wrap;
+}
+.controlForm > *{
+  flex-grow: 1;
+}
+
+.modelSelection{
+  display: flex;
+}
+
+.btnGroup {
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn {
+  padding: 0.6em 1em;
+  border: none;
+  outline: none;
+  background-color: dodgerblue;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+select,
+input[type=text] {
+  padding: 0.6em;
+  border-radius: 4px;
+  border: 1px solid rgb(233, 230, 230);
+}
+
+.progressBar {
+  text-align: center;
+  padding: 0.5em 0;
+}
+
+progress {
+  width: 99%;
+  height:30px;
+  border-radius: 4px;
+  border: 1px solid rgb(190, 190, 190);
+}
+
+.btn-group {
+  display: flex;
+  padding: 0.6em;
+  justify-content: space-around;
+  gap: 1em;
+  flex-wrap: wrap;
+}
+
+.btn-group > input {
+  flex-grow: 1;  
+}
+
+.btn-danger {
+  background-color: red;
+}
+.imageGrid{
+  margin:1em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap:1em;
+}
+.imageGrid > img{
+  width:300px;
+}
